@@ -6,51 +6,58 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<script src="js/modernizr.js"></script>
   	
-	<title>Presentation Slideshow | CodyHouse</title>
+	<title>LCDL 서버 소개</title>
 </head>
 <body>
 	<div class="cd-slideshow-wrapper">
 		<nav class="cd-slideshow-nav">
 			<button class="cd-nav-trigger">
-				Open Nav
-				<span aria-hidden="true"></span>
+				목차 열기
+				<span aria-hidden="false"></span>
 			</button>
 			
+			<!-- 왼쪽 카테고리 탭 -->
 			<div class="cd-nav-items">
 				<ol>
-					<li><a href="#slide-1">Slide 1</a></li>
+					<li><a href="#slide-1">서버 개요</a></li>
 					<li>
-						<a href="#slide-2">Slide 2</a>
+						<a href="#slide-2">서버 인증 방식</a>
 						<ol class="sub-nav">
-							<li><a href="#slide-2">Slide 2 - Sub 1</a></li>
-							<li><a href="#slide-2">Slide 2 - Sub 2</a></li>
-							<li><a href="#slide-2">Slide 2 - Sub 3</a></li>
+							<li><a href="#slide-2">오리아나 봇 채택 이유</a></li>
+							<li><a href="#slide-2">인증 방법</a></li>
+							<li><a href="#slide-2">오리아나 봇 오류</a></li>
 						</ol>
 					</li>
-					<li><a href="#slide-3">Slide 3</a></li>
-					<li><a href="#slide-4">Slide 4</a></li>
-					<li><a href="#slide-5">Slide 5</a></li>
-					<li>
-						<a href="#slide-6">Slide 6</a>
+					<li><a href="#slide-3">랭크 시스템</a></li>
 						<ol class="sub-nav">
-							<li><a href="#slide-6">Slide 6 - Sub 1</a></li>
-							<li><a href="#slide-6">Slide 6 - Sub 2</a></li>
+							<li><a href="#slide-2">개인 티어</a></li>
+							<li><a href="#slide-2">팀 신청 및 티어</a></li>
+							<li><a href="#slide-2">랭크 진행</a></li>
+							<li><a href="#slide-2">점수 계산</a></li>
 						</ol>
-					</li>
 				</ol>
-			</div> <!-- .cd-nav-items -->
-		</nav> <!-- .cd-slideshow-nav -->
+			</div>
+		</nav> 
 		
+		<!-- 슬라이드 내용 -->
 		<ol class="cd-slideshow">
+
+			<!-- 첫 번째 슬라이드 -->
 			<li class="visible" id="slide-1">
 				<div class="cd-slider-content">
 					<div class="content-wrapper">
-						<h2>Presentation Slideshow</h2>
-						<p>A simple presentation template in CSS &amp; jQuery.</p>
+						<h2>Lol Chamions Discord League</h2>
+						<p>
+							<br><br><br>
+							이 사이트는 롤 스크림 서버 "LCDL" 소개를 위해 제작한 사이트 입니다. <br><br>
+							화살표로 움직여 슬라이드를 볼 수 있으니, 천천히 읽어보시기 바랍니다. <br><br>
+							내용 이외의 문의 사항 및 질문과 이해 안 되는 부분은 디스코드 선옥#0424 로 연락주세요.
+							<br><br><br>
+						</p>
 						<svg version="1.1" id="icon-keyboard" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="186px" height="60px" viewBox="0 0 186 60" enable-background="new 0 0 186 60" xml:space="preserve">
 						<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M119,59H67c-1.10457,0-2-0.89543-2-2V36
 							c0-1.10457,0.89543-2,2-2h52c1.10457,0,2,0.89543,2,2v21C121,58.10457,120.10457,59,119,59z"/>
@@ -73,12 +80,13 @@
 				</div>
 			</li>
 
+			<!-- 두 번째 슬라이드 -->
 			<li id="slide-2">
 				<ol class="sub-slides">
 					<li>
 						<div class="cd-slider-content">
 							<div class="content-wrapper">
-								<h2>Slider #2</h2>
+								<h2>서버 개요</h2>
 							</div>
 						</div>
 					</li>
@@ -90,63 +98,16 @@
 							</div>
 						</div>
 					</li>
-
-					<li>
-						<div class="cd-slider-content">
-							<div class="content-wrapper">
-								<h2>Slider #2 - Sub #2</h2>
-							</div>
-						</div>
-					</li>
-
-					<li>
-						<div class="cd-slider-content">
-							<div class="content-wrapper">
-								<h2>Slider #2 - Sub #3</h2>
-							</div>
-						</div>
-					</li>
-				</ol> <!-- .sub-slides -->
+				</ol> 
 			</li>
 
+			<!-- 세 번째 슬라이드 -->
 			<li id="slide-3">
-				<div class="cd-slider-content">
-					<div class="content-wrapper">
-						<h2>Slider #3</h2>
-					</div>
-				</div>
-			</li>
-
-			<li id="slide-4">
-				<div class="cd-slider-content">
-					<div class="content-wrapper">
-						<h2>Slider #4</h2>
-					</div>
-				</div>
-			</li>
-
-			<li id="slide-5">
-				<div class="cd-slider-content">
-					<div class="content-wrapper">
-						<h2>Slider #5</h2>
-					</div>
-				</div>
-			</li>
-
-			<li id="slide-6">
 				<ol class="sub-slides">
 					<li>
 						<div class="cd-slider-content">
 							<div class="content-wrapper">
-								<h2>Slider #6</h2>
-							</div>
-						</div>
-					</li>
-					
-					<li>
-						<div class="cd-slider-content">
-							<div class="content-wrapper">
-								<h2>Slider #6 - Sub #1</h2>
+								<h2>서버 인증 방식</h2>
 							</div>
 						</div>
 					</li>
@@ -154,17 +115,86 @@
 					<li>
 						<div class="cd-slider-content">
 							<div class="content-wrapper">
-								<h2>Slider #6 - Sub #2</h2>
+								<h2>오리아나 봇 채택 이유</h2>
 							</div>
 						</div>
 					</li>
-				</ol> <!-- .sub-slides -->
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>인증 방법</h2>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>오리아나 봇 오류</h2>
+							</div>
+						</div>
+					</li>
+				</ol> 
 			</li>
-		</ol> <!-- .cd-slideshow -->
-	</div> <!-- .cd-slideshow-wrapper -->
+			
+			<!-- 네 번째 슬라이드 -->
+			<li id="slide-4">
+				<ol class="sub-slides">
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>랭크 시스템</h2>
+								<p>
+									<br><br><br>
+									이 사이트는 롤 스크림 서버 "LCDL" 소개를 위해 제작한 사이트 입니다. <br><br>
+									화살표로 움직여 슬라이드를 볼 수 있으니, 천천히 읽어보시기 바랍니다. <br><br>
+									내용 이외의 문의 사항 및 질문과 이해 안 되는 부분은 디스코드 선옥#0424 로 연락주세요.
+									<br><br><br>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>개인 티어</h2>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>팀 신청 및 티어</h2>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>랭크 진행</h2>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>점수 계산</h2>
+							</div>
+						</div>
+					</li>
+				</ol> 
+			</li>
+
+		</ol>	
+	</div> 
 	
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/main.js"></script>
 </body>
 </html>
