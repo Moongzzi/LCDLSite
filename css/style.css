@@ -182,6 +182,10 @@ Slide Content
 .cd-slideshow > li:nth-of-type(4) .cd-slider-content .content-wrapper {
   background: #1e2135;
 }
+.cd-slider-content h1 {
+  font-size: 6rem;
+  color: #ffffff;
+}
 .cd-slider-content h2 {
   font-size: 3rem;
   color: #ffffff;
